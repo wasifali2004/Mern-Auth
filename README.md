@@ -19,12 +19,11 @@ Authentication: JWT, bcrypt, Nodemailer
 API Endpoints
 POST /api/auth/register - Register a new user
 POST /api/auth/login - Login user
-GET /api/auth/verify/****:token - Verify email
+GET /api/auth/verify-email - Verify email
 POST /api/auth/reset-password - Request password reset
 POST /api/auth/reset-password/****:token - Reset password
 
 License
-
 This project is open-source and available under the MIT License.
 
 Author
